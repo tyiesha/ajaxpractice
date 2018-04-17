@@ -1,0 +1,210 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size: 11pt;
+}
+
+#header {
+	width: 100%;
+	height: 50px;
+	background-color: #333;
+	color: #ffffff;
+	border-radius: 5px;
+	vertical-align: middle;
+}
+
+#header h3 {
+	float: left;	
+	margin-left: 10px;
+	font-size: 12pt;
+	display: inline;
+}
+
+#header p {
+	color: #ffffff;
+	float: right;
+	margin-right: 10px;
+	text-transform: capitalize;
+}
+
+.tclass {
+	margin: 10px;
+	font-size: 10pt;
+}
+
+#login {
+	width: 40%;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #f7f7f7;
+	height: 100px;
+	padding: 90px 50px 50px;
+	border-radius: 5px; 
+	
+}
+
+#thoughttable {
+	width: 50%;
+	border-collapse: collapse; 
+	
+}
+
+#thoughttable td {
+	padding: 10px;
+}
+ .oddRow {
+	background-color:#e4e4e4;
+}
+
+.btn {
+	width: 150px;
+	background-color: #3e8f3e;
+	border: 1px solid #3e8f3e;
+    color: #fff;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 33px;
+    font-size: 12px;
+    margin-top:10px;
+}
+.btn:focus, .btn:hover {
+	background-color: #419641;
+	background-position: 0 -15px;
+}
+
+.btn:active {
+	background-color: #419641;
+    border-color: #3e8f3e;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+}
+
+.textcl {
+	background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+table a:link {
+	color: #666;
+	font-weight: bold;
+	text-decoration:none;
+}
+table a:visited {
+	color: #999999;
+	font-weight:bold;
+	text-decoration:none;
+}
+table a:active,
+table a:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}
+table {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	margin:20px;
+	border:#ccc 1px solid;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+table th {
+	padding:21px 25px 22px 25px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+table th:first-child {
+	text-align: left;
+	padding-left:20px;
+}
+table tr:first-child th:first-child {
+	-moz-border-radius-topleft:3px;
+	-webkit-border-top-left-radius:3px;
+	border-top-left-radius:3px;
+}
+table tr:first-child th:last-child {
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-right-radius:3px;
+	border-top-right-radius:3px;
+}
+table tr {
+	text-align: center;
+	padding-left:20px;
+}
+table td:first-child {
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+table td {
+	padding:18px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+	width: 100px;
+}
+table tr.even td {
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+table tr:last-child td {
+	border-bottom:0;
+}
+table tr:last-child td:first-child {
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+table tr:last-child td:last-child {
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+table tr:hover td {
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+
+
+
+#squareArea {
+	width: 700px;
+	height: 300px;
+	position: relative;
+	border: 2px solid;
+}
+
+.square {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	border: 1px solid;
+}
